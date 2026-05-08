@@ -22,15 +22,15 @@ That creates fragile demos instead of durable software.
 
 |  # | Step                                                         | Output        | Format                                  |
 | -: | ------------------------------------------------------------ | ------------- | --------------------------------------- |
-| 00 | [Problem to Ideas](./00_problem_to_ideas.md)                 | Ideas         | `.txt`, `.csv`, `.pdf`, `.html`, `.doc` |
-| 01 | [Ideas to Product Brief](./01_ideas_to_product_brief.md)     | Product Brief | `.pdf`                                  |
-| 02 | [Product Brief to Backlog](./02_product_brief_to_backlog.md) | Backlog       | `.csv`                                  |
-| 03 | [Backlog to Data Model](./03_backlog_to_data_model.md)       | Data Model    | `.yaml`                                 |
-| 04 | [Data Model to API](./04_data_model_to_api.md)               | API           | `.php`                                  |
-| 05 | [API to CMS](./05_api_to_cms.md)                             | CMS           | `.tsx`                                  |
-| 06 | [CMS to UI Mockups](./06_cms_to_ui_mockups.md)               | UI Mockups    | `.figma`                                |
-| 07 | [UI Mockups to Web App](./07_ui_mockups_to_web_app.md)       | Web App       | `.tsx`                                  |
-| 08 | [Web App to Mobile App](./08_web_app_to_mobile_app.md)       | Mobile App    | `.ipa`, `.apk`                          |
+| 1 | [Problem to Ideas](./01_problem_to_ideas.md)                 | Ideas         | `.txt`, `.csv`, `.pdf`, `.html`, `.doc` |
+| 2 | [Ideas to Product Brief](./02_ideas_to_product_brief.md)     | Product Brief | `.pdf`                                  |
+| 3 | [Product Brief to Backlog](./03_product_brief_to_backlog.md) | Backlog       | `.csv`                                  |
+| 4 | [Backlog to Data Model](./04_backlog_to_data_model.md)       | Data Model    | `.yaml`                                 |
+| 5 | [Data Model to API](./05_data_model_to_api.md)               | API           | `.php or .py`                           |
+| 6 | [API to CMS](./06_api_to_cms.md)                             | CMS           | `.tsx`                                  |
+| 7 | [CMS to UI Mockups](./07_cms_to_ui_mockups.md)               | UI Mockups    | `.figma`                                |
+| 8 | [UI Mockups to Web App](./08_ui_mockups_to_web_app.md)       | Web App       | `.tsx`                                  |
+| 9 | [Web App to Mobile App](./09_web_app_to_mobile_app.md)       | Mobile App    | `.ipa`, `.apk`                          |
 
 Each step `.MD` explains the input, transformation, output, gate, and link to that step's agent `.MD`.
 
