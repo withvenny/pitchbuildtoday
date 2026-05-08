@@ -26,7 +26,7 @@ That creates fragile demos instead of durable software.
 | 2 | [Ideas to Product Brief](./02_ideas_to_product_brief.md)     | Product Brief | `.pdf`                                  |
 | 3 | [Product Brief to Backlog](./03_product_brief_to_backlog.md) | Backlog       | `.csv`                                  |
 | 4 | [Backlog to Data Model](./04_backlog_to_data_model.md)       | Data Model    | `.yaml`                                 |
-| 5 | [Data Model to API](./05_data_model_to_api.md)               | API           | `.php or .py`                           |
+| 5 | [Data Model to API](./05_data_model_to_api.md)               | API           | `.php` or `.py`                           |
 | 6 | [API to CMS](./06_api_to_cms.md)                             | CMS           | `.tsx`                                  |
 | 7 | [CMS to UI Mockups](./07_cms_to_ui_mockups.md)               | UI Mockups    | `.figma`                                |
 | 8 | [UI Mockups to Web App](./08_ui_mockups_to_web_app.md)       | Web App       | `.tsx`                                  |
