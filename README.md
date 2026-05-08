@@ -22,7 +22,7 @@ That creates fragile demos instead of durable software.
 
 |  # | Step                                                         | Output        | Format                                  |
 | -: | ------------------------------------------------------------ | ------------- | --------------------------------------- |
-| 1 | [Problem to Ideas](./01_problem_to_ideas.md)                 | Ideas         | `.txt`, `.csv`, `.pdf`, `.html`, `.doc` |
+| 1 | [Problems to Ideas](./01_problems_to_ideas.md)               | Ideas         | `.txt`, `.csv`, `.pdf`, `.html`, `.doc` |
 | 2 | [Ideas to Product Brief](./02_ideas_to_product_brief.md)     | Product Brief | `.pdf`                                  |
 | 3 | [Product Brief to Backlog](./03_product_brief_to_backlog.md) | Backlog       | `.csv`                                  |
 | 4 | [Backlog to Data Model](./04_backlog_to_data_model.md)       | Data Model    | `.yaml`                                 |
