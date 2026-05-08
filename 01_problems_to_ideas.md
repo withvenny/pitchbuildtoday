@@ -1,4 +1,4 @@
-# 00. Problems to Ideas
+# 01. Problems to Ideas
 
 ## Purpose
 
@@ -46,6 +46,6 @@ Use the related agent to ingest the raw material and generate the idea artifact.
 
 After the idea artifact is created, continue to the product brief step.
 
-[Continue to Ideas to Product Brief](./01_ideas_to_product_brief.md)
+[Continue to Ideas to Product Brief](./02_ideas_to_product_brief.md)
 
 🌋
