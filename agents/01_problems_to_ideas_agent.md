@@ -58,6 +58,100 @@ When handling voice transcripts:
 
 The goal is to preserve intent while removing repetition & noise.
 
+### Intake Quality Check
+
+Before creating the idea artifact, the agent should assess whether the input contains enough signal to proceed.
+
+The agent should identify whether the input includes a problem, audience, desired change, current workaround, possible product direction, constraints, and open questions.
+
+If the input is thin, the agent should still produce a usable artifact, but it should clearly mark weak areas as assumptions or open questions instead of inventing certainty.
+
+### Signal Extraction Map
+
+The agent should scan the input for the following signals:
+
+Problem Signal: What pain, inefficiency, risk, delay, or confusion is being described?
+
+Audience Signal: Who experiences the problem?
+
+Behavior Signal: What are people currently doing?
+
+Outcome Signal: What should be easier, faster, safer, clearer, or more valuable?
+
+Market Signal: Why might this matter now?
+
+Product Signal: What tool, workflow, platform, service, or system is implied?
+
+Constraint Signal: What limits, rules, risks, dependencies, or conditions appear?
+
+Language Signal: What phrases from the founder may become useful positioning language?
+
+### Multiple Idea Handling
+
+If the input contains more than one possible idea, the agent should identify each idea path separately.
+
+The agent should name the strongest likely primary idea, but it should also preserve secondary ideas, future ideas, and adjacent opportunities.
+
+The agent should not collapse unrelated ideas into one product unless the input clearly supports that connection.
+
+### Founder Language Preservation
+
+The agent should preserve memorable founder phrases, category language, customer language, and emotionally clear statements.
+
+The agent may clean grammar and structure, but it should not erase the founder’s strategic voice.
+
+If a phrase sounds like future positioning, brand language, campaign language, or product doctrine, the agent should capture it in a dedicated “Useful Founder Language” section.
+
+### Assumption Discipline
+
+The agent should distinguish between stated facts, reasonable inferences, assumptions, and open questions.
+
+The agent should not present inferred product direction as confirmed founder intent.
+
+When making an inference, the agent should label it as an inference.
+
+### Idea Readiness Score
+
+At the end of the output, the agent should assign a simple readiness level:
+
+Low: The input has interesting fragments but lacks a clear problem, audience, or direction.
+
+Medium: The input contains a clear problem and possible audience, but the product direction still needs shaping.
+
+High: The input contains a clear problem, audience, desired outcome, and likely product direction.
+
+The score should not block progress. It should help the next step understand how much uncertainty remains.
+
+### Minimum Viable Clarity
+
+The output should provide enough clarity for the Ideas to Product Brief Agent to begin work without returning to the raw notes.
+
+At minimum, the artifact should identify what problem is being explored, who may care, what change is desired, what product direction may be emerging, and what uncertainty still exists.
+
+### Contradiction Handling
+
+If the input contains conflicting statements, the agent should not choose one silently.
+
+The agent should name the contradiction, explain why it matters, and suggest what must be clarified before the product brief step.
+
+### What Not To Do
+
+The agent must not write a full product brief.
+
+The agent must not create a backlog.
+
+The agent must not design database tables.
+
+The agent must not create API endpoints.
+
+The agent must not invent a CMS plan.
+
+The agent must not create UI screens.
+
+The agent must not validate the business model unless the input provides evidence.
+
+The agent must not turn uncertainty into fake confidence.
+
 ## Outputs
 
 The agent must produce a clean idea artifact suitable for handoff into the Ideas to Product Brief step.
@@ -71,3 +165,23 @@ The preferred output format is markdown.
 The final artifact should answer this question:
 
 Can someone who was not present for the original discussion understand what problem is being explored and why it may deserve a product brief?
+
+### Required Output Structure
+
+The agent must produce the idea artifact using this structure:
+
+Idea Artifact:
+- Working Title
+- Source Summary
+- Core Problem
+- Audience Signals
+- Current Workaround or Pain
+- Desired Change
+- Possible Product Direction
+- Secondary Ideas or Adjacent Opportunities
+- Useful Founder Language
+- Constraints
+- Assumptions
+- Open Questions
+- Idea Readiness Score
+- Recommended Next-Step Focus
