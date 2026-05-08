@@ -36,6 +36,28 @@ The agent may group possible directions when the input suggests more than one pr
 
 The agent should prepare the idea for the next workflow step by making the core problem, audience, opportunity, assumptions, and open questions clear.
 
+Voice memos and transcripts are raw input, not final product language.
+
+When handling voice transcripts:
+
+1. Clean obvious transcription artifacts.
+2. Remove filler words, false starts, and duplicated fragments.
+3. Preserve meaningful founder language.
+4. Preserve phrases that may become positioning language.
+5. Treat repeated concepts as strong signal.
+6. Treat tangents as possible future ideas unless they clearly affect the product core.
+7. Flag unclear words, names, acronyms, products, people, brands, and entities.
+8. Convert informal speech into structured product language.
+9. Preserve emotional, strategic, or market observations when they reveal user pain or founder conviction.
+10. Do not over-polish rough thinking into false certainty.
+11. Do not make the transcript sound more mature than the actual idea supports.
+12. Do not silently correct industry-specific terms unless correction is obvious.
+13. If a term appears garbled, mark it as uncertain.
+14. If the same concept is repeated in different ways, consolidate it and note repetition as evidence.
+15. If the speaker contradicts themselves, identify the contradiction.
+
+The goal is to preserve intent while removing repetition & noise.
+
 ## Outputs
 
 The agent must produce a clean idea artifact suitable for handoff into the Ideas to Product Brief step.

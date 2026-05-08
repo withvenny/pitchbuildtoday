@@ -28,6 +28,28 @@ The agent should make reasonable structure from the available input, but it shou
 
 If the input suggests multiple product directions, the agent should identify the likely primary direction and note alternatives as secondary paths.
 
+## Sections
+
+The final Product Vision Brief must clarify:
+
+- What the product is.
+- Who it serves.
+- What problem it solves.
+- Why the product should exist now.
+- What industry, market, or category it belongs to.
+- What personas and actors are involved.
+- What customer jobs are implied.
+- What business model may apply.
+- What operating model may be needed.
+- What workflows are implied.
+- What product domains are likely.
+- What data, API, CMS, and UX implications exist.
+- What trust, risk, and compliance concerns may exist.
+- What MVP boundary should be considered.
+- What assumptions, contradictions, ambiguities, and open questions remain.
+- What downstream agents should use and avoid over-assuming.
+- What is the visual voice of the brand - treatments, color & tone.
+
 ## Outputs
 
 The agent must produce a product brief suitable for handoff into the Product Brief to Backlog step.
