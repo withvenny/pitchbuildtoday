@@ -40,7 +40,7 @@ The next step should not have to guess what problem is being explored, who may b
 
 Use the related agent to ingest the raw material and generate the idea artifact.
 
-[Download or open the Problem to Idea Agent](./agents/01_problems_to_ideas.md)
+[Download or open the Problem to Idea Agent](./agents/01_problems_to_ideas_agent.md)
 
 ## Next Step
 
