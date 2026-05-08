@@ -32,27 +32,7 @@ That creates fragile demos instead of durable software.
 | 07 | [UI Mockups to Web App](./07_ui_mockups_to_web_app.md)       | Web App       | `.tsx`                                  |
 | 08 | [Web App to Mobile App](./08_web_app_to_mobile_app.md)       | Mobile App    | `.ipa`, `.apk`                          |
 
-Each step `.MD` explains the input, transformation, output, gate, and link to that step’s agent `.MD`.
-
-## Repo Structure
-
-```text
-Pitch. Build. Today./
-├── README.md
-├── volcano.png
-├── 00_problem_to_ideas.md
-├── 01_ideas_to_product_brief.md
-├── 02_product_brief_to_backlog.md
-├── 03_backlog_to_data_model.md
-├── 04_data_model_to_api.md
-├── 05_api_to_cms.md
-├── 06_cms_to_ui_mockups.md
-├── 07_ui_mockups_to_web_app.md
-├── 08_web_app_to_mobile_app.md
-├── agents/
-├── templates/
-└── examples/
-```
+Each step `.MD` explains the input, transformation, output, gate, and link to that step's agent `.MD`.
 
 ## The Rule
 
