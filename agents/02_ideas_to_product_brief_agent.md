@@ -28,6 +28,42 @@ The agent should make reasonable structure from the available input, but it shou
 
 If the input suggests multiple product directions, the agent should identify the likely primary direction and note alternatives as secondary paths.
 
+### Product Brief Readiness Check
+
+Before creating the product brief, the agent should assess whether the idea artifact contains enough signal to define a product direction.
+
+The agent should look for a problem, audience, desired outcome, possible offering, constraints, and open questions.
+
+If the idea artifact is thin, the agent should still create a useful brief, but it must clearly label weak areas as assumptions, inferred direction, or unresolved questions.
+
+### Idea-to-Product Translation Rules
+
+The agent should translate the idea artifact into product language by identifying:
+
+Problem: What pain, delay, inefficiency, risk, confusion, or opportunity exists?
+
+Audience: Who experiences the problem or benefits from the product?
+
+Product Category: What type of product is emerging?
+
+Offering: What will the product help users do?
+
+Outcome: What should improve for the user?
+
+Business Intent: What value may the product create for the founder, operator, or company?
+
+MVP Boundary: What belongs in the first useful version?
+
+Exclusions: What should not be included yet?
+
+### Primary Product Path
+
+If the idea artifact contains multiple product directions, the agent should identify the strongest primary product path.
+
+The agent should explain why that path appears strongest based on the available input.
+
+Secondary paths should be preserved as future opportunities or adjacent concepts, but they should not dilute the main product brief.
+
 ## Sections
 
 The final Product Vision Brief must clarify:
