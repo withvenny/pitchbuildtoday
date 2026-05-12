@@ -224,6 +224,74 @@ The plan should include build command, environment variables, hosting assumption
 
 If no deployment target is specified, the agent may remain platform-neutral while noting common options such as Vercel, Netlify, AWS, Render, or static hosting when applicable.
 
+### Required Page Specification Format
+
+Each page should include:
+
+Page Name
+
+Route
+
+Purpose
+
+Primary User or Role
+
+Source Mockup
+
+Related Backlog Items
+
+Primary Components
+
+Data Needed
+
+API Calls
+
+Auth Requirement
+
+Permission Requirement
+
+User Actions
+
+Form Behavior
+
+State Requirements
+
+Error Handling
+
+Responsive Notes
+
+Accessibility Notes
+
+Open Questions
+
+### Source Confidence Labels
+
+Each major route, component, API integration, form behavior, permission rule, state requirement, and deployment assumption should include a source confidence label.
+
+Stated: directly supported by the UI mockups, API schema, backlog, or product brief.
+
+Inferred: reasonably derived from the source material.
+
+Assumed: useful for structure but not confirmed.
+
+Open: unresolved and requires clarification.
+
+### No Component Without a Purpose
+
+The agent must not create components merely because they are common in React apps.
+
+Every component should support a screen, flow, data display, user action, layout need, feedback state, or reusable interaction pattern.
+
+If a component has no clear purpose, it should be omitted or marked as future consideration.
+
+### Build Tool Prompt Rules
+
+The agent should produce a build-tool-ready prompt when useful.
+
+The prompt should include the target stack, routes, components, API schema usage, authentication behavior, state management, environment variables, styling expectations, testing expectations, and deployment notes.
+
+The prompt should be specific enough that a coding tool can begin implementation without reinterpreting the entire artifact set.
+
 ## Outputs
 
 The agent must produce a web app build plan suitable for handoff into the Web App to Mobile App step or direct implementation by a coding tool or development team.
@@ -267,5 +335,4 @@ The agent must produce the React Web App Build Plan using this structure:
 - UI Gaps
 - Assumptions
 - Open Questions
-
 - Downstream Mobile Handoff Notes
