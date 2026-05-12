@@ -168,7 +168,7 @@ The output should include backlog items with clear actors, actions, objects, sce
 
 The output should be structured enough to support sorting, filtering, review, and downstream transformation into a data model.
 
-The preferred output format is CSV or markdown table.
+The preferred output format is CSV.
 
 The final artifact should answer this question:
 

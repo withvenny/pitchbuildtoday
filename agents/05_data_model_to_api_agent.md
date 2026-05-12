@@ -224,7 +224,7 @@ The output should include an API resource map, endpoint list, method definitions
 
 The output may also include an OpenAPI or Swagger-ready outline when useful, but the API design should remain understandable even before formal documentation is generated.
 
-The preferred output format is markdown, YAML, JSON, or implementation-ready code notes when a stack is specified.
+The preferred output format is YAML.
 
 The final artifact should answer this question:
 

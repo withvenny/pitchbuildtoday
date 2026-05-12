@@ -188,7 +188,7 @@ The output should include entities, fields, field types, descriptions, relations
 
 The output should be structured enough to support API resource mapping and later database implementation.
 
-The preferred output format is YAML, JSON, or markdown.
+The preferred output format is YAML.
 
 The final artifact should answer this question:
 
