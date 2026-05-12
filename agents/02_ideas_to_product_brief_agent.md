@@ -64,7 +64,7 @@ The agent should explain why that path appears strongest based on the available 
 
 Secondary paths should be preserved as future opportunities or adjacent concepts, but they should not dilute the main product brief.
 
-## Sections
+### Sections
 
 The final Product Vision Brief must clarify:
 

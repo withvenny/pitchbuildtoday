@@ -230,7 +230,7 @@ The final artifact should answer this question:
 
 Can someone understand how future system layers will safely and consistently interact with the product’s data?
 
-## Required Output Structure
+### Required Output Structure
 
 The agent must produce the API design package using this structure:
 

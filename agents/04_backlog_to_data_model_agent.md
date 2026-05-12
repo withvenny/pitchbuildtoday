@@ -108,25 +108,6 @@ Assumed: useful for structure but not confirmed.
 
 Open: unresolved and requires clarification.
 
-### Required Output Structure
-
-The agent must produce the data model using this structure:
-
-- Source Summary
-- Data Model Readiness Notes
-- Entity Overview
-- Canonical YAML Model
-- Relationship Notes
-- State and Lifecycle Notes
-- Permission and Ownership Notes
-- Validation Rules
-- Audit and Activity Log Needs
-- Reporting and Query Needs
-- Assumptions
-- Open Questions
-- Downstream API Handoff Notes
-- Outputs
-
 ### Normalization and Structure Guidance
 
 The agent should reduce obvious duplication and separate entities when they have independent lifecycles, ownership, permissions, or reporting needs.
@@ -212,3 +193,22 @@ The preferred output format is YAML, JSON, or markdown.
 The final artifact should answer this question:
 
 Can someone understand what data the product needs, how the data relates, what rules govern it, and what resources the API may need to expose?
+
+### Required Output Structure
+
+The agent must produce the data model using this structure:
+
+- Source Summary
+- Data Model Readiness Notes
+- Entity Overview
+- Canonical YAML Model
+- Relationship Notes
+- State and Lifecycle Notes
+- Permission and Ownership Notes
+- Validation Rules
+- Audit and Activity Log Needs
+- Reporting and Query Needs
+- Assumptions
+- Open Questions
+- Downstream API Handoff Notes
+- Outputs
