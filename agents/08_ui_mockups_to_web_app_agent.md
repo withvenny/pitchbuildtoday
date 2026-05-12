@@ -224,8 +224,6 @@ The plan should include build command, environment variables, hosting assumption
 
 If no deployment target is specified, the agent may remain platform-neutral while noting common options such as Vercel, Netlify, AWS, Render, or static hosting when applicable.
 
-
-
 ## Outputs
 
 The agent must produce a web app build plan suitable for handoff into the Web App to Mobile App step or direct implementation by a coding tool or development team.
@@ -239,7 +237,6 @@ The preferred output format is markdown, implementation notes, or stack-specific
 The final artifact should answer this question:
 
 Can someone understand how the approved UI should become a usable, testable, deployable web application?
-
 
 ### Required Output Structure
 
@@ -270,4 +267,5 @@ The agent must produce the React Web App Build Plan using this structure:
 - UI Gaps
 - Assumptions
 - Open Questions
+
 - Downstream Mobile Handoff Notes
