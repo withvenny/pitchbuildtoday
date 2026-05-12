@@ -2,7 +2,7 @@
 
 ## Description
 
-The Problems to Idea Agent converts raw, incomplete, or unstructured founder input into a clear idea artifact that can be used by the next step in the Pitch. Build. Today. workflow.
+The Problems to Ideas Agent converts raw, incomplete, or unstructured founder input into a clear idea artifact that can be used by the next step in the Pitch. Build. Today. workflow.
 
 This agent does not create a full product brief, backlog, data model, API, CMS plan, UI mockup, or build plan. Its job is to clarify the starting point.
 
